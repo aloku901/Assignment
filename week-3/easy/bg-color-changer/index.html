@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BG-Color-Changer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>BG-Color-Changer</h1>
+    <div class="button-panel" id="buttonPanel">
+      <button style="background-color: red; color: white;" onclick="changeColor('red')">Red</button>
+      <button style="background-color: blue; color: white;" onclick="changeColor('blue')">Blue</button>
+      <button style="background-color: green; color: white;" onclick="changeColor('green')">Green</button>
+      <button style="background-color: yellow; color: black;" onclick="changeColor('yellow')">Yellow</button>
+    </div>
+    <div class="add-color">
+      <input type="text" id="colorInput" placeholder="Enter color name or HEX code">
+      <button onclick="addColor()">Add Color</button>
+    </div>
+    <p class="error" id="errorMessage"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
