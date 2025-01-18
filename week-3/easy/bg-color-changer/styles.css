@@ -40,35 +40,21 @@ h1 {
   transform: scale(1.1);
 }
 
-.add-color {
+.color-picker {
+  margin-top: 20px;
   display: flex;
-  gap: 10px;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.add-color input[type="text"] {
-  padding: 10px;
+.color-picker label {
   font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
-.add-color button {
-  padding: 10px 20px;
-  font-size: 1rem;
+.color-picker input[type="color"] {
+  width: 100px;
+  height: 100px;
   border: none;
-  border-radius: 5px;
-  background-color: #28a745;
-  color: white;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.add-color button:hover {
-  background-color: #218838;
-}
-
-.error {
-  color: red;
-  margin-top: 10px;
 }

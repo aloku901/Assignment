@@ -14,4 +14,4 @@ Your task is to design and implement a Bg-Color-Changer application that meets t
 - User should also be able to add custom colors to the color panel.
 
 
-### Don't copy UI as it is, only take reference from it.
+### Don't copy UI as it is, only take reference from it
